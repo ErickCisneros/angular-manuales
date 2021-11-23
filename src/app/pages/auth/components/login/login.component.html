@@ -1,0 +1,19 @@
+<form class="login mat-elevation-z8">
+    <mat-card>
+        <mat-card-title>Inicio de sesión</mat-card-title>
+        <mat-card-content>
+            <mat-form-field class="form-field" appearance="fill">
+                <mat-label>Usuario</mat-label>
+                <input matInput type="text" placeholder="Ingresa tu usuario">
+            </mat-form-field>
+            <mat-form-field class="form-field" appearance="fill">
+                <mat-label>Contraseña</mat-label>
+                <input matInput type="password" placeholder="Ingresa tu contraseña">
+            </mat-form-field>
+            <mat-card-actions>
+                <button mat-raised-button color="primary" class="form-button">Iniciar sesión</button>
+                <a mat-raised-button routerLink="/auth/signup" color="accent" class="form-button">Crear cuenta</a>
+            </mat-card-actions>
+        </mat-card-content>
+    </mat-card>
+</form>
